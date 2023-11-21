@@ -27,7 +27,7 @@
 + __2023__ Return to school
 
 ## __How to contact me__
-![Github Badge](https://img.shields.io/badge/github-black?style=flat-square&logo=github&link=https%3A%2F%2Fwww.github.com%2Fsean429)
+![Github Badge](https://img.shields.io/badge/github-black?style=flat-square&logo=github&link=https://github.com/sean429)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sean429@g.skku.edu)](mailto:sean429@g.skku.edu)
 
 
