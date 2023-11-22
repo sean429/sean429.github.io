@@ -32,4 +32,4 @@
 
 
 ## Solved.ac
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sean429)](https://solved.ac/sean429)
+[![Solved.ac프로필](https://mazassumnida.wtf/api/v2/generate_badge?boj=sean429)](https://solved.ac/sean429)
