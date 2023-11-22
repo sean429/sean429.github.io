@@ -26,6 +26,11 @@
 + __2023__ Discharge
 + __2023__ Return to school
 
+## __Achievement__
++ Toeic 845
++ New HSK 6
+
+
 ## __How to contact me__
 ![Github Badge](https://img.shields.io/badge/github-black?style=flat-square&logo=github&link=github.com%2Fsean429)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sean429@g.skku.edu)](mailto:sean429@g.skku.edu)
