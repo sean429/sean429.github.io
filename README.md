@@ -1,5 +1,5 @@
 # SiHyeon Ryu
-<img src = ./myself.jpg width = 180>
+<img src = "./img/myself.jpg" width = 180>
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=sean429)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -10,8 +10,8 @@
 >Hi. I'm SiHyeon Ryu. 23 year olds. Majoring in Software department. <br>I can use Python, C, C++, and JAVA. And I can speak chinese fluently. <br>Thank you for visiting my homepage!
 
 ## __INFO__ 
-###  __University__: [<img src = ./skku.logo.png height = 50>](https://www.skku.edu/skku/index.do)
-###  __Department__: [<img src = ./skku_soft_eng_banner.png height = 50>](https://cse.skku.edu/cse/index.do)
+###  __University__: [<img src = "./img/skku.logo.png" height = 50>](https://www.skku.edu/skku/index.do)
+###  __Department__: [<img src = ./img/skku_soft_eng_banner.png height = 50>](https://cse.skku.edu/cse/index.do)
 
 ## __Skills__
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
