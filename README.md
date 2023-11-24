@@ -11,7 +11,7 @@
 
 ## __INFO__ 
 ###  __University__: [<img src = "./img/skku.logo.png" height = 50>](https://www.skku.edu/skku/index.do)
-###  __Department__: [<img src = ./img/skku_soft_eng_banner.png height = 50>](https://cse.skku.edu/cse/index.do)
+###  __Department__: [<img src = "./img/skku_soft_eng_banner.png" height = 50>](https://cse.skku.edu/cse/index.do)
 
 ## __Skills__
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
