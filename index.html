@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>막꽃연공</title>
+  <style>
+    /* 1. 화면 전체를 사진 배경으로 */
+    body {
+      margin: 0;
+      height: 100vh;
+      background: url('25여름연공.png') no-repeat center/cover;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 2. 라디오 버튼 숨기기 */
+    input[type="radio"] {
+      display: none;
+    }
+
+    /* 3. 버튼처럼 보이는 라벨 */
+    .tab-label {
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      background: rgba(0,0,0,0.5);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .tab-label:hover {
+      background: rgba(0,0,0,0.7);
+    }
+
+    /* 4. 선택된 탭 강조 */
+    #part1:checked + label[for="part1"],
+    #part2:checked + label[for="part2"] {
+      background: rgba(255,255,255,0.8);
+      color: black;
+    }
+
+    /* 5. 셋리스트 컨테이너 */
+    .lists {
+      position: absolute;
+      bottom: 20%;
+      background: rgba(0,0,0,0.6);
+      padding: 1em 2em;
+      border-radius: 6px;
+      display: none;
+      max-width: 80%;
+    }
+
+    /* 6. 각각의 라디오 체크 시 노출 */
+    #part1:checked ~ .lists#list1,
+    #part2:checked ~ .lists#list2 {
+      display: block;
+    }
+
+    /* 7. 목록 스타일 */
+    .lists ol {
+      padding-left: 1.2em;
+    }
+    .lists li {
+      margin: 0.3em 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 라디오 버튼 + 라벨로 탭 구현 -->
+  <input type="radio" name="part" id="part1" checked>
+  <label class="tab-label" for="part1">1부 셋리스트</label>
+
+  <input type="radio" name="part" id="part2">
+  <label class="tab-label" for="part2">2부 셋리스트</label>
+
+  <!-- 1부 내용 -->
+  <div class="lists" id="list1">
+    <h2>1부 셋리스트</h2>
+    <ol>
+      <li>Opening Song</li>
+      <li>Ballad Track</li>
+      <li>Upbeat Tune</li>
+      <!-- … -->
+    </ol>
+  </div>
+
+  <!-- 2부 내용 -->
+  <div class="lists" id="list2">
+    <h2>2부 셋리스트</h2>
+    <ol>
+      <li>Acoustic Medley</li>
+      <li>Rock Anthem</li>
+      <li>Encore Finale</li>
+      <!-- … -->
+    </ol>
+  </div>
+
+</body>
+</html>
