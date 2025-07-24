@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>막꽃연공</title>
   <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden; /* 페이지 스크롤 막기 */
+    }
     /* 1. 화면 전체 배경 */
     body {
-      margin: 0;
-      height: 100vh;
       background: url('../25여름연공.png') no-repeat center/cover;
+      background-attachment: fixed;
       font-family: sans-serif;
       color: white;
       position: relative; /* 절대위치 자식 기준 */
@@ -23,7 +27,7 @@
     /* 3. 버튼(라벨) 래퍼 */
     .tab-wrapper {
       position: absolute;
-      top: 8%;               /* 버튼 높이 조절 */
+      top: 3%;               /* 버튼 높이 조절 */
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -54,12 +58,15 @@
     /* 6. 리스트 박스 */
     .lists {
       position: absolute;
-      top: 30%;              /* 리스트 높이 조절 */
+      top: 15%;              /* 리스트 높이 조절 */
       left: 50%;
       transform: translateX(-50%);
       background: rgba(0,0,0,0.6);
       padding: 1em 2em;
       border-radius: 6px;
+      max-height: 80vh;        /* 리스트 높이 제한 */
+      overflow-y: auto;        /* 내부 스크롤 허용 */
+      -webkit-overflow-scrolling: touch; /* iOS 모멘텀 스크롤 */
       display: none;
       width: 80%;
       max-width: 400px;
@@ -82,8 +89,8 @@
 
   <!-- ② 버튼만 묶인 래퍼 -->
   <div class="tab-wrapper">
-    <label class="tab-label" for="part1">1부 셋리스트</label>
-    <label class="tab-label" for="part2">2부 셋리스트</label>
+    <label class="tab-label" for="part1">1부</label>
+    <label class="tab-label" for="part2">2부</label>
   </div>
 
   <!-- 1부 셋리스트 -->
